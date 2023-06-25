@@ -1,0 +1,20 @@
+.image-range{
+    padding: 10px 0 0 0;
+    align-items: center;
+    display: flex;
+    color: #FFFBD8;
+}
+
+.reset{
+    border: none;
+    color: #fff;
+    background-color: #f00;
+    border-radius: 1em;
+}
+
+.reset:disabled{
+    border: none;
+    color: white;
+    background-color: #999;
+    border-radius: 1em;
+}

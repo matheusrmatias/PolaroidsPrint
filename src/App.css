@@ -1,0 +1,97 @@
+.polaroid-main-header{
+  width: 100%;
+  height: 100vh;
+  background-color: #0F3832;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text{
+  width: 210px;
+  height: 330px;
+  margin-left: 1rem;
+}
+
+.header-text p{
+  margin: 0;
+  text-align: justify;
+  color: #FFFBD8;
+
+}
+
+.header-text p:nth-child(1){
+  width: 200px;
+  font-size: 1.6em;
+  margin-bottom: 30px;
+}
+
+.header-text p:nth-child(2){
+  width: 200px;
+  font-size: 1em;
+}
+
+
+.polaroid-main-header .polaroid .image-range{
+  margin: auto;
+  width: max-content;
+}
+
+.button-container{
+  margin-top: 2em;
+  justify-content: space-between;
+  display: flex;
+}
+
+.button-container :first-child{
+  background-color: #080;
+}
+
+
+.polaroid-main{
+  width: 100%;
+
+  background-color: #F29F05;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.polaroid-list{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 80%;
+}
+
+.polaroid-list .polaroid-container{
+  margin: 30px 30px;
+}
+
+.header-text :nth-child(4){
+  justify-content: center;
+}
+
+.header-text :nth-child(4) button{
+  background-color: #f00;
+  width: 100%;
+}
+
+.main-footer{
+  padding: 0 1em;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background-color: #0a2521;
+  width: 100%;
+  height: 5vh;
+}
+
+.main-footer a{
+  color: #FFFBD8;
+  text-decoration: none;
+  
+}

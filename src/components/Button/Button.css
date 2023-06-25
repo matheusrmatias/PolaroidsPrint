@@ -1,0 +1,15 @@
+.button{
+    height: 2em;
+    border-radius: 1em;
+    font-family: serif;
+    color: #fff;
+    background-color: #F29F05;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}

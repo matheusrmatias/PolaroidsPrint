@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0F3832;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@page{
+  margin: 2cm 1cm 0 1cm;
+}
+
+@media print{
+  .polaroid-main-header, .main-footer{
+    display: none !important;
+  }
+  .polaroid-main{
+    left: 0!important;
+    width: 100%!important;
+    background-color: #fff!important;
+    justify-content: start!important;
+    align-items: start!important;
+  }
+
+  .polaroid-list{
+    display: grid!important;
+    grid-template-columns: 0.5fr 0.5fr!important;
+    gap:0!important;
+  }
+
+  .polaroid-list .polaroid-container{
+    margin: 0!important;
+    width: 7cm!important;
+    height: 9cm!important;
+  }
+  .polaroid-list .polaroid-container img{
+    margin-top: -1cm;
+    width: 6cm!important;
+    height: 6cm!important;
+  }
+  .polaroid-list .polaroid-container:nth-child(5){
+    transform: rotate(90deg) translateY(-1cm);
+  }
+  .polaroid-list .polaroid-container:nth-child(6){
+    transform: rotate(90deg) translateY(-1.5cm);
+  }
+}

@@ -4,7 +4,7 @@
 <p><a href='https://polaroidsprint.matheusrmatias.dev.br/'>polaroidsprint.matheusrmatias.dev.br</a></p>
 
 
-## Adicionar uma imagem na moldura clicando na caixa preta.
+## Adicione uma imagem na moldura clicando na caixa preta.
 <img src='.images/adicionar.gif'/>
 
 ## Ajuste os eixos X e Y da imagem para que ela encaixe da melhor maneira.
